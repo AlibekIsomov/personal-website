@@ -137,6 +137,8 @@
     {%- if config.extra.fediverse_creator %}
     <meta name="fediverse:creator" content="{{ config.extra.fediverse_creator }}">
     {%- endif %}
+
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR-TOKEN-HERE"}'></script>
 </head>
 
 <body class="layout-{{ config.extra.layout }}">
